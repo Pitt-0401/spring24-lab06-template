@@ -19,7 +19,7 @@ public class App {
     public static void main(String[] args) {
         // Print the first input argument
         System.out.println(Arrays.toString(args));
-        // 1.1 Check the argument's length
+        // Check the argument's length
         if (args.length > 0) {
             Cat[] cats = readCatsFromFile(args[0]);
 
